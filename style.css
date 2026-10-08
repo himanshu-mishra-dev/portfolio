@@ -441,6 +441,7 @@ footer{
         height: auto;
         flex-direction: column;
         gap: 32px;
+        background-color: transparent;
     }
 
     .secondSection .vertical {
