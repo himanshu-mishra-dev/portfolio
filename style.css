@@ -1,0 +1,382 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #050505;
+     color: white;
+     font-family: "Poppins", sans-serif;
+ }
+
+ nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     height: 80px;
+     background-color: darkgreen;
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: center;
+ }
+
+ nav ul li {
+     list-style: none;
+     margin: 0 23px;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+ }
+nav ul li a:hover{
+    color: #2efc9c;
+    font-size: 1.01rem;
+}
+
+ .left {
+     font-size: 1.5rem;
+ }
+
+.firstSection {
+     display: flex;
+     justify-content: space-around;
+     margin: 130px 0
+     
+ }
+
+.firstSection > div {
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 2.5rem;
+    margin: 30px;
+    justify-content: left;
+}
+.leftSection .btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.leftSection .btn{
+    padding: 12px;
+    background-color: #002614;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font: size 20px;
+    cursor:pointer;
+}
+.leftSection .btn:hover{
+    background-color: darkgreen;
+    box-shadow: 0 0 10px #2efc9c;
+    
+}
+.leftSection .btn:active{
+    background-color: black;
+    transform: translateY(-5px)
+
+}
+.leftSection .buttons{
+    padding: 50px 0;
+}
+.rightSection img{
+    width: 80%;
+    margin: 80px 0;
+}
+.purple{
+    color: #2efc9c;
+}
+
+#element{
+    color: #2efc9c;
+    white-space: nowrap;
+}
+
+.no-wrap-int{
+    white-space: nowrap;
+}
+main hr{
+    border: 0;
+    background: #2efc9c;
+    height: 1.2px;
+    margin: 40px 80px;
+}
+
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.text-gray{
+    color: gray;
+}
+
+.secondSection .box{
+    background: white;
+    width: 50vw;   /*to be changed while adding new work */
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;     /*to be changed while adding new work */
+}
+
+.image-top{
+    width: 23px;
+    position:relative;
+    top: -32px;
+    left: -9px
+}
+.vertical-title{
+    position:relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+.skills-section {
+  padding: 60px 20px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.skills-section .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.skills-section .subtitle {
+  color: #b0b8c4;
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+}
+
+.skills-section .section-title {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 24px;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  border-color: #22c55e; 
+  box-shadow: 0 10px 25px rgba(34, 197, 94, 0.15);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+
+.card-header h3 {
+  font-size: 1.15rem;
+  color: #ffffff;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background: rgba(255, 255, 255, 0.07);
+  color: #e2e8f0;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.2s ease;
+}
+
+.tag:hover {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+  border-color: rgba(34, 197, 94, 0.4);
+}
+
+.tag.highlight {
+  border-color: rgba(34, 197, 94, 0.4);
+  color: #22c55e;
+  background: rgba(34, 197, 94, 0.08);
+}
+
+.projects .box{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.card-body{
+    background-color: #050505;
+    color: white;
+    border-top: 2px solid white;
+}
+
+.card-text{
+    color: gray;
+    font-size: 14px;
+}
+
+.card-title{
+    font-size: 18px;
+    color: #2efc9c;
+}
+
+.projects .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px #2efc9c;
+    border: 1px solid #2efc9c;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  gap: 12px;              
+  margin-top: 15px;       
+  width: 100%;
+}
+
+.projects .text-gray{
+    color: #b0b8c4;
+    font-size: 0.95rem;
+}
+.projects{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.projects h1{
+    margin-bottom: 2.5rem;
+}
+
+.btn {
+    background-color: darkgreen;
+    border-color: white;
+}
+
+
+
+.about-section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+
+.about-title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.5px;
+  position: relative;
+  display: inline-block;
+}
+
+
+.about-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 50px;
+  height: 4px;
+  background: darkgreen;
+  border-radius: 2px;
+}
+
+
+.about-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 5px solid darkgreen; 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.highlight-name {
+  color: #ffffff;
+  font-size: 1.15rem;
+}
+
+.highlight {
+  color: #2efc9c;
+}
+footer{
+    background-color: #000d07;
+   
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content:space-between;
+}
+.footer ul {
+    list-style:circle
+}
+.footer > div{
+    width: 223px;
+}
+
+.footer-text-center{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    padding: 12px 0;
+
+}
+.footer li a{
+    text-decoration: none;
+}
+.footer li a:hover{
+    text-decoration: underline;
+}
+
+.pfp{
+    justify-content:left
+}
